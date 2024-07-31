@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>8주차 과제</title>
 </head>
 <body>
-<%@ include file="navbar.jsp" %>
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<h1><a href="login">login</a><br></h1>
+<h1><a href="scope">scope</a><br></h1>
 </body>
 </html>

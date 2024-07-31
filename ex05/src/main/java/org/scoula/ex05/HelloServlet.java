@@ -1,4 +1,4 @@
-package org.scoula.dynamicweb;
+package org.scoula.ex05;
 
 import java.io.*;
 import javax.servlet.http.*;
