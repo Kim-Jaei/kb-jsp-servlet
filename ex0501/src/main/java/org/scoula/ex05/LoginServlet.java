@@ -20,7 +20,6 @@ public class LoginServlet extends HttpServlet {
         System.out.println("Session Member Name: " + session.getAttribute("username"));
         System.out.println("Session Member Password: " + session.getAttribute("passwd"));
 
-        // 4. forwarding
         request.getRequestDispatcher("login.jsp").forward(request, response);
     }
 
